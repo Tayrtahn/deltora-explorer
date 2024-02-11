@@ -2,7 +2,7 @@
 A set of Python tools for modifying data in Deltora Quest - Nanatsu no Houseki
 
 ## deltora_explorer.py
-Used to pack/unpack data files from/to the main ROM file. Run the **unpack** command and pass a legitimately acquired ROM of _Deltora Quest - Nanatsu no Houseki_ to extract FILEDATA.BIN and generate the _files/_ directory containing all the data of the game separated into individual files. If modified files are placed in a separate directory ("_overrides/_"), they will be used in place of the originals when running **pack** to rebuild the ROM file.
+Used to pack/unpack data files from/to the main ROM file. Run the **unpack** command and pass a legitimately acquired ROM of _Deltora Quest - Nanatsu no Houseki_ to extract FILEDATA.BIN and generate the _files/_ directory containing all the data of the game separated into individual files. If modified files are placed in a separate directory ("_overrides/_"), they will be used in place of the originals when running **pack** to rebuild the ROM file. Running the **csv** command will produce a Comma-Separated Values file with information about each extracted file.
 
 ## dump_strings.py
 Used to extract the dialogue strings from the .bin files produced by deltora_explorer.py. Outputs a text file with each line by default, add _--tsv_ as an argument to output as Tab-Separated Values instead. Each string is preceded by a 4-byte value that specifies which character is speaking, which portrait to use for them, and what sound to play, as well as other effects.
