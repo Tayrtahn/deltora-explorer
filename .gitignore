@@ -160,10 +160,13 @@ cython_debug/
 #.idea/
 
 # ROM files
-.nds
-.bin
-.NCLR
-.NCGR
-.NSCR
-.BMD
-.SCR
+*.nds
+*.bin
+*.NCLR
+*.NCGR
+*.NSCR
+*.BMD
+*.SCR
+
+# Generated directories
+files/
