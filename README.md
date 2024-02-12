@@ -1,5 +1,5 @@
 # Deltora Explorer
-A set of Python tools for modifying data in Deltora Quest - Nanatsu no Houseki
+A set of Python tools for modifying data in _Deltora Quest - Nanatsu no Houseki_
 
 ## deltora_explorer.py
 Used to pack/unpack data files from/to the main ROM file. Run the **unpack** command and pass a legitimately acquired ROM of _Deltora Quest - Nanatsu no Houseki_ to extract FILEDATA.BIN and generate the _files/_ directory containing all the data of the game separated into individual files. If modified files are placed in a separate directory ("_overrides/_"), they will be used in place of the originals when running **pack** to rebuild the ROM file. Running the **csv** command will produce a Comma-Separated Values file with information about each extracted file.
